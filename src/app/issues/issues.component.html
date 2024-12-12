@@ -1,0 +1,22 @@
+<div class="issue">
+  <h3> Issue Management</h3>
+  <hr/>
+  <div class="form">
+   Description <input type="text" [(ngModel)]="description">
+   <button (click)="addIssue()">Post Issue</button>
+  </div>
+  <hr/>
+  <ul>
+     <li *ngFor="let issue of issues$ | async">
+           {{issue.description}}
+           <span class="status">current status: {{issue.status}}</span>
+            <button *ngIf="issue.status==='created'" (click)="updateIssue('Assigned',issue)">
+                Assign</button>
+            <button *ngIf="issue.status==='Assigned'" (click)="updateIssue('Resolved',issue)">
+                Resolve</button>
+           <button (click)="deleteIssue(issue.id)">Delete Issue</button>
+     </li>
+  </ul>
+</div>
+
+<a routerLink="prioritization">Check the Priorities </a>
