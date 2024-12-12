@@ -1,0 +1,104 @@
+{
+    "issues": [
+      {
+        "id": 1,
+        "description": "Login page not responsive",
+        "status": "created"
+      },
+      {
+        "id": 2,
+        "description": "Error when submitting the contact form",
+        "status": "Resolved"
+      },
+      {
+        "id": 3,
+        "description": "Profile picture not uploading",
+        "status": "Assigned"
+      },
+      {
+        "id": 4,
+        "description": "Dashboard data not refreshing automatically",
+        "status": "Resolved"
+      },
+      {
+        "id": 5,
+        "description": "Forgot password link broken",
+        "status": "created"
+      },
+      {
+        "id": 6,
+        "description": "Notification settings not saving",
+        "status": "Resolved"
+      },
+      {
+        "id": 7,
+        "description": "Search feature returning incorrect results",
+        "status": "Assigned"
+      },
+      {
+        "id": 8,
+        "description": "Slow performance on mobile devices",
+        "status": "Resolved"
+      },
+      {
+        "id": 9,
+        "description": "Missing translations in French version",
+        "status": "Assigned"
+      },
+      {
+        "id": 10,
+        "description": "Images not loading in gallery",
+        "status": "Resolved"
+      },
+      {
+        "id": 11,
+        "description": "Checkout button not working in cart",
+        "status": "created"
+      },
+      {
+        "id": 12,
+        "description": "Incorrect total price in invoice",
+        "status": "Resolved"
+      },
+      {
+        "id": 13,
+        "description": "Unable to add items to wishlist",
+        "status": "Assigned"
+      },
+      {
+        "id": 14,
+        "description": "Popup advertisements not closing",
+        "status": "Resolved"
+      },
+      {
+        "id": 15,
+        "description": "Sidebar menu overlapping content",
+        "status": "Assigned"
+      },
+      {
+        "id": 16,
+        "description": "Broken link in user profile",
+        "status": "Resolved"
+      },
+      {
+        "id": 18,
+        "description": "Character encoding issues in export file",
+        "status": "created"
+      },
+      {
+        "id": 19,
+        "description": "Security vulnerabilities in login flow",
+        "status": "Assigned"
+      },
+      {
+        "id": 20,
+        "description": "Incorrect data displayed in reports",
+        "status": "Resolved"
+      },
+      {
+        "id": 2700,
+        "description": "It is raining",
+        "status": "created"
+      }
+    ]
+  }
